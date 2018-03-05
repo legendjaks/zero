@@ -1,0 +1,124 @@
+18-03-05 07:56:14.283 [main] INFO  com.jay.edge.EdgeApplicationKt - The following profiles are active: docker
+18-03-05 07:56:14.341 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7494e528: startup date [Mon Mar 05 07:56:14 GMT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6a5fc7f7
+18-03-05 07:56:16.015 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+18-03-05 07:56:16.715 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=da4e7510-c4a2-3062-a4e0-213b53fdc6fa
+18-03-05 07:56:16.772 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18-03-05 07:56:16.852 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.jay.edge.MicroProxy' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18-03-05 07:56:17.029 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$59e54dec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18-03-05 07:56:17.824 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+18-03-05 07:56:17.875 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18-03-05 07:56:17.876 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+18-03-05 07:56:17.894 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+18-03-05 07:56:18.075 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18-03-05 07:56:18.077 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3736 ms
+18-03-05 07:56:20.301 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+18-03-05 07:56:20.317 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18-03-05 07:56:20.319 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18-03-05 07:56:20.321 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18-03-05 07:56:20.321 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18-03-05 07:56:20.322 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+18-03-05 07:56:20.323 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+18-03-05 07:56:20.424 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing FeignContext-http://micro: startup date [Mon Mar 05 07:56:20 GMT 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7494e528
+18-03-05 07:56:20.493 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18-03-05 07:56:21.590 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18-03-05 07:56:21.592 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18-03-05 07:56:21.622 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18-03-05 07:56:21.622 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18-03-05 07:56:21.991 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7494e528: startup date [Mon Mar 05 07:56:14 GMT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6a5fc7f7
+18-03-05 07:56:22.185 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/micro/info],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.jay.edge.MicroInfo> com.jay.edge.EdgeResource.microInfo(int)
+18-03-05 07:56:22.204 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/info],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.jay.edge.EdgeResource.info(int)
+18-03-05 07:56:22.207 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18-03-05 07:56:22.209 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18-03-05 07:56:22.328 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18-03-05 07:56:22.330 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18-03-05 07:56:22.363 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in serviceExceptionHandler
+18-03-05 07:56:22.466 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18-03-05 07:56:23.623 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+18-03-05 07:56:23.639 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+18-03-05 07:56:23.650 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18-03-05 07:56:23.859 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18-03-05 07:56:23.871 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+18-03-05 07:56:23.881 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+18-03-05 07:56:23.892 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+18-03-05 07:56:23.903 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+18-03-05 07:56:23.922 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+18-03-05 07:56:23.959 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7494e528,type=ConfigurationPropertiesRebinder]
+18-03-05 07:56:24.021 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+18-03-05 07:56:24.046 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+18-03-05 07:56:24.385 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+18-03-05 07:56:25.032 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+18-03-05 07:56:25.033 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+18-03-05 07:56:25.695 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+18-03-05 07:56:25.709 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+18-03-05 07:56:26.013 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 07:56:26.077 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+18-03-05 07:56:26.080 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+18-03-05 07:56:26.081 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+18-03-05 07:56:26.082 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+18-03-05 07:56:26.082 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+18-03-05 07:56:26.083 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+18-03-05 07:56:26.083 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+18-03-05 07:56:26.352 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+18-03-05 07:56:26.375 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+18-03-05 07:56:26.378 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+18-03-05 07:56:26.393 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1520236586383 with initial instances count: 1
+18-03-05 07:56:26.403 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application edge with eureka with status UP
+18-03-05 07:56:26.405 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1520236586405, current=UP, previous=STARTING]
+18-03-05 07:56:26.417 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EDGE/d32689a6a916:edge:8000: registering service...
+18-03-05 07:56:26.550 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EDGE/d32689a6a916:edge:8000 - registration status: 204
+18-03-05 07:56:26.607 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+18-03-05 07:56:26.610 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8000
+18-03-05 07:56:26.613 [main] INFO  com.jay.edge.EdgeApplicationKt - Started EdgeApplicationKt in 16.489 seconds (JVM running for 17.283)
+18-03-05 07:57:09.438 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18-03-05 07:57:09.440 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18-03-05 07:57:09.470 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+18-03-05 08:02:27.943 [http-nio-8000-exec-9] INFO  com.jay.edge.EdgeResource - Seq: 1 V: 1 ID: 7728994
+18-03-05 08:02:53.697 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:03:40.834 [http-nio-8000-exec-5] INFO  com.jay.edge.EdgeResource - Seq: 10001 V: 1 ID: 7728994
+18-03-05 08:04:24.877 [http-nio-8000-exec-6] INFO  com.jay.edge.EdgeResource - Seq: 11000 V: 1 ID: 7728994
+18-03-05 08:07:53.701 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:11:12.612 [http-nio-8000-exec-9] INFO  com.jay.edge.EdgeResource - Seq: 10001 V: 1 ID: 7728994
+18-03-05 08:11:22.924 [http-nio-8000-exec-10] INFO  com.jay.edge.EdgeResource - Seq: 10002 V: 1 ID: 7728994
+18-03-05 08:11:32.639 [http-nio-8000-exec-1] INFO  com.jay.edge.EdgeResource - Seq: 10001 V: 1 ID: 7728994
+18-03-05 08:11:33.240 [http-nio-8000-exec-2] INFO  com.jay.edge.EdgeResource - Seq: 10003 V: 1 ID: 7728994
+18-03-05 08:11:53.575 [http-nio-8000-exec-5] INFO  com.jay.edge.EdgeResource - Seq: 10004 V: 1 ID: 7728994
+18-03-05 08:12:03.887 [http-nio-8000-exec-6] INFO  com.jay.edge.EdgeResource - Seq: 10005 V: 1 ID: 7728994
+18-03-05 08:12:13.902 [http-nio-8000-exec-6] INFO  com.jay.edge.EdgeResource - Seq: 10005 V: 1 ID: 7728994
+18-03-05 08:12:14.510 [http-nio-8000-exec-8] INFO  com.jay.edge.EdgeResource - Seq: 10007 V: 1 ID: 7728994
+18-03-05 08:12:24.524 [http-nio-8000-exec-9] INFO  com.jay.edge.EdgeResource - Seq: 10007 V: 1 ID: 7728994
+18-03-05 08:12:34.838 [http-nio-8000-exec-10] INFO  com.jay.edge.EdgeResource - Seq: 10008 V: 1 ID: 7728994
+18-03-05 08:12:45.157 [http-nio-8000-exec-1] INFO  com.jay.edge.EdgeResource - Seq: 10009 V: 1 ID: 7728994
+18-03-05 08:12:53.706 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:12:55.477 [http-nio-8000-exec-2] INFO  com.jay.edge.EdgeResource - Seq: 10010 V: 1 ID: 7728994
+18-03-05 08:13:05.483 [http-nio-8000-exec-5] INFO  com.jay.edge.EdgeResource - Seq: 10010 V: 1 ID: 7728994
+18-03-05 08:15:55.074 [http-nio-8000-exec-10] INFO  com.jay.edge.EdgeResource - Seq: 10000 V: 1 ID: 7728994
+18-03-05 08:16:05.428 [http-nio-8000-exec-1] INFO  com.jay.edge.EdgeResource - Seq: 10001 V: 1 ID: 7728994
+18-03-05 08:16:15.748 [http-nio-8000-exec-2] INFO  com.jay.edge.EdgeResource - Seq: 10002 V: 1 ID: 7728994
+18-03-05 08:16:26.071 [http-nio-8000-exec-5] INFO  com.jay.edge.EdgeResource - Seq: 10003 V: 1 ID: 7728994
+18-03-05 08:17:06.751 [http-nio-8000-exec-6] INFO  com.jay.edge.EdgeResource - Seq: 10005 V: 1 ID: 7728994
+18-03-05 08:17:47.115 [http-nio-8000-exec-3] INFO  com.jay.edge.EdgeResource - Seq: 10006 V: 1 ID: 7728994
+18-03-05 08:17:53.710 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:18:17.782 [http-nio-8000-exec-4] INFO  com.jay.edge.EdgeResource - Seq: 10008 V: 1 ID: 7728994
+18-03-05 08:18:37.805 [http-nio-8000-exec-10] INFO  com.jay.edge.EdgeResource - Seq: 10008 V: 1 ID: 7728994
+18-03-05 08:18:48.136 [http-nio-8000-exec-5] INFO  com.jay.edge.EdgeResource - Seq: 10009 V: 1 ID: 7728994
+18-03-05 08:19:08.166 [http-nio-8000-exec-7] INFO  com.jay.edge.EdgeResource - Seq: 10009 V: 1 ID: 7728994
+18-03-05 08:19:18.497 [http-nio-8000-exec-6] INFO  com.jay.edge.EdgeResource - Seq: 10010 V: 1 ID: 7728994
+18-03-05 08:19:38.512 [http-nio-8000-exec-8] INFO  com.jay.edge.EdgeResource - Seq: 10010 V: 1 ID: 7728994
+18-03-05 08:22:53.717 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:27:53.722 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:32:53.725 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:37:39.947 [http-nio-8000-exec-2] INFO  com.jay.edge.EdgeResource - Seq: 10000 V: 1 ID: 7728994
+18-03-05 08:37:53.730 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:38:10.311 [http-nio-8000-exec-7] INFO  com.jay.edge.EdgeResource - Seq: 10001 V: 1 ID: 7728994
+18-03-05 08:38:50.974 [http-nio-8000-exec-8] INFO  com.jay.edge.EdgeResource - Seq: 10003 V: 1 ID: 7728994
+18-03-05 08:39:11.630 [http-nio-8000-exec-3] INFO  com.jay.edge.EdgeResource - Seq: 10005 V: 1 ID: 7728994
+18-03-05 08:39:42.311 [http-nio-8000-exec-10] INFO  com.jay.edge.EdgeResource - Seq: 10007 V: 1 ID: 7728994
+18-03-05 08:40:02.337 [http-nio-8000-exec-5] INFO  com.jay.edge.EdgeResource - Seq: 10007 V: 1 ID: 7728994
+18-03-05 08:40:12.666 [http-nio-8000-exec-2] INFO  com.jay.edge.EdgeResource - Seq: 10008 V: 1 ID: 7728994
+18-03-05 08:40:22.676 [http-nio-8000-exec-7] INFO  com.jay.edge.EdgeResource - Seq: 10008 V: 1 ID: 7728994
+18-03-05 08:40:43.014 [http-nio-8000-exec-8] INFO  com.jay.edge.EdgeResource - Seq: 10009 V: 1 ID: 7728994
+18-03-05 08:41:03.035 [http-nio-8000-exec-3] INFO  com.jay.edge.EdgeResource - Seq: 10009 V: 1 ID: 7728994
+18-03-05 08:41:13.366 [http-nio-8000-exec-4] INFO  com.jay.edge.EdgeResource - Seq: 10010 V: 1 ID: 7728994
+18-03-05 08:41:23.379 [http-nio-8000-exec-1] INFO  com.jay.edge.EdgeResource - Seq: 10010 V: 1 ID: 7728994
+18-03-05 08:42:53.733 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+18-03-05 08:47:53.737 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
