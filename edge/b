@@ -1,0 +1,1 @@
+./gradlew -x test clean build

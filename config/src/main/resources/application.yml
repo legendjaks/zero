@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/configs
+  profiles:
+    active: native
+
+server:
+  port: 8888
+
+logging:
+  path: ${L_PATH:logs}
+  file: ${spring.application.name}-${current.date}
+  config: 'classpath:log.xml'

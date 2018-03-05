@@ -1,0 +1,35 @@
+server:
+  port: 8080
+
+spring.cloud.loadbalancer.retry.enabled: true
+
+zuul:
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 20000
+  retryable: true
+  sensitiveHeaders: Cookie
+  ignoredServices: '*'
+  ribbon:
+    eager-load:
+      enabled: true
+  routes:
+    edge:
+      path: /edge/**
+      stripPrefix: true
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 20000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 2
+  retryableStatusCodes: 404,502,504
+
+---
+
+spring:
+  profiles: docker
+
+eureka:
+  instance:
+    hostname: gateway

@@ -1,0 +1,9 @@
+docker service rm config 
+docker service rm registry 
+docker service rm gateway 
+docker service rm edge 
+docker service rm micro 
+
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker rmi $(docker images -f "dangling=true" -q)

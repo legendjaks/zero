@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: edge
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+
+---
+
+spring:
+  profiles: docker
+  cloud:
+    config:
+      uri: http://config:8888
+      fail-fast: true

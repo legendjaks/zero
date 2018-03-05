@@ -1,0 +1,11 @@
+server:
+  port: 3000
+
+---
+
+spring:
+  profiles: docker
+
+eureka:
+  instance:
+    hostname: micro

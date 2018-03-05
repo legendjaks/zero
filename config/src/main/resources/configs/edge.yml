@@ -1,0 +1,18 @@
+server:
+  port: 8000
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 10000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 2
+  retryableStatusCodes: 404,502,504
+
+---
+
+spring:
+  profiles: docker
+
+eureka:
+  instance:
+    hostname: edge

@@ -1,0 +1,2 @@
+./gradlew -x test clean build
+docker build -t config:1 .
