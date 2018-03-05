@@ -16,7 +16,7 @@ class MicroResource {
     private val log = LoggerFactory.getLogger(MicroResource::class.java)
 
     private val id = Random().nextInt()
-    private val version = 2
+    private val version = 1
 
     @GetMapping(produces = [MediaType.APPLICATION_JSON_VALUE])
     fun version(@RequestParam("seq") seq: Int): ResponseEntity<Any> {
